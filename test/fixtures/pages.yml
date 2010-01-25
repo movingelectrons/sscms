@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  meta_title: "Home Page"
+  meta_keywords: "Home page meta keywords"
+  meta_description: "Home page meta description"
+  permalink: index
+  header: "Home Page"
+  body: "This is the home page."
+  name: "Home Page"
+
+two:
+  meta_title: MyString
+  meta_keywords: MyText
+  meta_description: MyText
+  permalink: mytext
+  header: MyText
+  body: MyText
+  name: MyString

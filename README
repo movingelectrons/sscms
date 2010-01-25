@@ -1,0 +1,10 @@
+version 0.1
+
+This is a very, very basic CMS.  You can create pages, which are accessible through /:permalink.  rake db:seeds will give you a few pages to start with, as will the fixtures file.  For future versions, there will probably ONLY be a fixtures file.  I find these two to be highly repetitive, but I don't see how to get rake db:seed to work with testunit.  NOTE: the Home Page, with permalink 'index', is necessary.  Well, I should say, its necessary to have at least one page with permalink 'index'.  This is a full ruby on rails 2.3.5 application, not a plugin or engine.  Just download and modify to suite your needs.  You'll want to change the password at least, which is in controllers/application_controller, and the views and css to style it to your liking.  The current layout is very ugly!  To access the control panel (which is just active scaffold for the moment) go to /pages.  Also included a few very basic shoulda tests to get your started using test driven development.
+
+Comments and additions are more than welcome!
+
+
+Other notes:
+Data layout
+page meta_title:string meta_keywords:text meta_description:text permalink:text header:text body:text name:text

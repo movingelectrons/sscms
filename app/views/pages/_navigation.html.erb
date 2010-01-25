@@ -1,0 +1,5 @@
+<ul>
+<% for page in Page.find(:all) %>
+	<li><%= link_to page.name, page_url(page.permalink)%></li>
+<% end %>
+</ul>
